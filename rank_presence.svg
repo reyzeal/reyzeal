@@ -1,0 +1,74 @@
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="400" height="440">
+    <style>
+      text { font-family: 'JetBrains Mono', 'Fira Code', monospace; fill: #fff; font-size: 13px; }
+      .title { font-size: 16px; font-weight: bold; fill: #6366f1; } /* indigo-500 */
+    </style>
+    <rect width="100%" height="100%" fill="#1e1e2f"/>
+    
+    <!-- Avatar -->
+    <image href="data:image/jpeg;base64,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" x="40" y="20" width="40" height="40" clip-path="url(#avatarClip)" />
+    <defs>
+      <clipPath id="avatarClip">
+        <circle cx="60" cy="40" r="20" />
+      </clipPath>
+    </defs>
+
+    <!-- Title -->
+    <text x="95" y="45" class="title">Rank Languages by presence</text>
+
+    <!-- Language list -->
+    
+      <text x="40" y="90" text-anchor="start">JavaScript</text>
+      <text x="336" y="90" text-anchor="end">143</text>
+    
+      <text x="40" y="110" text-anchor="start">HTML</text>
+      <text x="336" y="110" text-anchor="end">127</text>
+    
+      <text x="40" y="130" text-anchor="start">TypeScript</text>
+      <text x="336" y="130" text-anchor="end">101</text>
+    
+      <text x="40" y="150" text-anchor="start">CSS</text>
+      <text x="336" y="150" text-anchor="end">99</text>
+    
+      <text x="40" y="170" text-anchor="start">Shell</text>
+      <text x="336" y="170" text-anchor="end">93</text>
+    
+      <text x="40" y="190" text-anchor="start">Docker</text>
+      <text x="336" y="190" text-anchor="end">76</text>
+    
+      <text x="40" y="210" text-anchor="start">Python</text>
+      <text x="336" y="210" text-anchor="end">42</text>
+    
+      <text x="40" y="230" text-anchor="start">PHP</text>
+      <text x="336" y="230" text-anchor="end">36</text>
+    
+      <text x="40" y="250" text-anchor="start">Swift</text>
+      <text x="336" y="250" text-anchor="end">20</text>
+    
+      <text x="40" y="270" text-anchor="start">Go</text>
+      <text x="336" y="270" text-anchor="end">20</text>
+    
+      <text x="40" y="290" text-anchor="start">Cpp</text>
+      <text x="336" y="290" text-anchor="end">15</text>
+    
+      <text x="40" y="310" text-anchor="start">Rust</text>
+      <text x="336" y="310" text-anchor="end">12</text>
+    
+      <text x="40" y="330" text-anchor="start">Java</text>
+      <text x="336" y="330" text-anchor="end">11</text>
+    
+      <text x="40" y="350" text-anchor="start">Infra</text>
+      <text x="336" y="350" text-anchor="end">9</text>
+    
+      <text x="40" y="370" text-anchor="start">C</text>
+      <text x="336" y="370" text-anchor="end">8</text>
+    
+      <text x="40" y="390" text-anchor="start">Ruby</text>
+      <text x="336" y="390" text-anchor="end">7</text>
+    
+      <text x="40" y="410" text-anchor="start">Pascal</text>
+      <text x="336" y="410" text-anchor="end">2</text>
+    
+  </svg>
+  
