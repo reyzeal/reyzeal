@@ -1,7 +1,7 @@
 # 👋 Welcome
 
-Hi, I'm **Rizal Ardhi Rahmadani** — a full-time coder at [Trihaka](https://trihaka.id).  
-I enjoy building things that solve real problems, and sometimes take small freelance projects in my spare time.
+Hi, I'm **Rizal Ardhi Rahmadani** — a **Fullstack Developer** and **Senior Backend Engineer**, experienced in **GCP** and **AWS** cloud environments.  
+Currently working full-time at [Trihaka](https://trihaka.id), and occasionally taking short freelance projects in my spare time.
 
 ---
 
@@ -21,6 +21,18 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 
 ### Top Languages by Size
 ![Top Languages by Size](./rank_size.svg)
+
+---
+
+## 🧰 Tech Stack
+
+**Languages:** TypeScript, JavaScript, Rust, Go, Python  
+**Backend:** Node.js, Bun, Express, Actix, Gin  
+**Frontend:** React, Solid, Tailwind CSS  
+**Databases:** MongoDB, Redis
+**Cloud & DevOps:** Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Cloud Run, Lambda  
+**Messaging & Queue:** RabbitMQ, MQTT, SNS/SQS  
+**Tools:** GitHub Actions, Cloud Build, Terraform
 
 ---
 
