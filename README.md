@@ -1,16 +1,27 @@
-### Selamat Datang 👋
+# 👋 Welcome
 
-Saat ini Saya sedang fulltime coder di [Trihaka](https://trihaka.id). Waktu senggang bisa juga freelance untuk proyek-proyek kecil nan singkat.
+Hi, I'm **Rizal Ardhi Rahmadani** — a full-time coder at [Trihaka](https://trihaka.id).  
+I enjoy building things that solve real problems, and sometimes take small freelance projects in my spare time.
 
-#### Github Performance
+---
+
+## ⚡ GitHub Performance
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=reyzeal)](https://git.io/streak-stats)
 
-##### Languages
+---
 
-Total Repo (Public + Private + Org): 293 (108 from org)
+## 💻 Languages Overview
 
-![Status Githubnya Rizal](./rank_presence.svg)
+**Total Repositories (Public + Private + Org):** 293 _(108 from org)_  
+Generated using my own project — [github-private-stats](https://github.com/reyzeal/github-private-stats).
 
-![Status Githubnya Rizal](./rank_size.svg)
+### Top Languages by Presence
+![Top Languages by Presence](./rank_presence.svg)
 
+### Top Languages by Size
+![Top Languages by Size](./rank_size.svg)
+
+---
+
+> “Code is like humor. When you have to explain it, it’s bad.” — Cory House
