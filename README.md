@@ -6,6 +6,8 @@ Saat ini Saya sedang fulltime coder di [Trihaka](https://trihaka.id). Waktu seng
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=reyzeal)](https://git.io/streak-stats)
 
+##### Languages
+
 Total Repo (Public + Private + Org): 293 (108 from org)
 
 ![Status Githubnya Rizal](./rank_presence.svg)
