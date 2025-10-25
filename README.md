@@ -31,9 +31,9 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 **Backend:** Node.js, Bun, Express, Actix, Gin  
 **Frontend:** React, Solid, Tailwind CSS  
 **Databases:** MongoDB, Redis
-**Messaging & Queue:** RabbitMQ, MQTT, SNS/SQS  
+**Messaging or Queue:** RabbitMQ, MQTT, SNS/SQS  
 **Tools:** GitHub Actions, Cloud Build, Terraform
-**Cloud/DevOps:** Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Cloud Run, Lambda  
+**Cloud and DevOps:** Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Cloud Run, Lambda  
 
 ---
 
