@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250">
+    <style>
+      text { font-family: 'JetBrains Mono', 'Fira Code', monospace; fill: #fff; font-size: 13px; }
+      .center {font-family: 'JetBrains Mono', 'Fira Code', monospace; fill: #fff; font-size: 20px; }
+      .title { font-size: 16px; font-family: 'JetBrains Mono', 'Fira Code', monospace; font-weight: bold; fill: #6366f1; } /* indigo-500 */
+      .sub {font-size: 11px; font-family: 'JetBrains Mono', 'Fira Code', monospace; fill: #aaaaaa}
+    </style>
+    <rect width="100%" height="100%" fill="#0D0D0D"/>
+    
+                <circle
+                cx="100" cy="150" r="60"
+                fill="none"
+                stroke="#507dda"
+                stroke-width="12"
+                stroke-dasharray="158.46406334039358 218.52705509038157"
+                stroke-dashoffset="-0"
+                transform="rotate(-90 100 100)"
+                stroke-linecap="round"
+                />
+            ,
+                <circle
+                cx="100" cy="150" r="60"
+                fill="none"
+                stroke="#4fbd91"
+                stroke-width="12"
+                stroke-dasharray="80.50996766487741 296.4811507658977"
+                stroke-dashoffset="-158.46406334039358"
+                transform="rotate(-90 100 100)"
+                stroke-linecap="round"
+                />
+            ,
+                <circle
+                cx="100" cy="150" r="60"
+                fill="none"
+                stroke="#516280"
+                stroke-width="12"
+                stroke-dasharray="138.01708742550412 238.97403100527103"
+                stroke-dashoffset="-238.974031005271"
+                transform="rotate(-90 100 100)"
+                stroke-linecap="round"
+                />
+            
+    <text
+        x="150" y="90"
+        text-anchor="middle"
+        font-size="22"
+        font-family="monospace"
+        fill="#fff"
+      >Total</text>
+    <text
+        x="150" y="115"
+        text-anchor="middle"
+        class="center"
+      >295</text>
+      
+    <circle r="5" cx="60" cy="190" fill="#507dda"/>
+    <circle r="5" cx="150" cy="190" fill="#4fbd91"/>
+    <circle r="5" cx="240" cy="190" fill="#516280"/>
+    <text x="60" y="210" text-anchor="middle">63</text>
+    <text x="150" y="210" text-anchor="middle">124</text>
+    <text x="240" y="210" text-anchor="middle">108</text>
+    <text class="sub" x="60" y="225" text-anchor="middle">public</text>
+    <text class="sub" x="150" y="225" text-anchor="middle">private</text>
+    <text class="sub" x="240" y="225" text-anchor="middle">org</text>
+    </svg>
