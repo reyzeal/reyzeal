@@ -7,20 +7,21 @@ Currently working full-time at [Trihaka](https://trihaka.id), and occasionally t
 
 ## ⚡ GitHub Performance
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=reyzeal)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=reyzeal&theme=dark)](https://git.io/streak-stats)
 
 ---
 
 ## 💻 Languages Overview
-
-**Total Repositories (Public + Private + Org):** 293 _(108 from org)_  
 Generated using my own project — [github-private-stats](https://github.com/reyzeal/github-private-stats).
 
-### Top Languages by Presence
-![Top Languages by Presence](./rank_presence.svg)
+### Total Repositories
+![Total Repositories](./repo_total.svg)
+
+### Top Languages by Repo Count
+![Top Languages by Repo Count](./lang_repo.svg)
 
 ### Top Languages by Size
-![Top Languages by Size](./rank_size.svg)
+![Top Languages by Size](./lang_size.svg)
 
 ---
 
