@@ -28,11 +28,17 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 ## 🧰 Tech Stack
 
 **Languages:** TypeScript, JavaScript, Rust, Go, Python
+
 **Backend:** Node.js, Bun, Express, Actix, Gin
+
 **Frontend:** React, Solid, Tailwind CSS
+
 **Databases:** MongoDB, Redis
+
 **Messaging or Queue:** RabbitMQ, MQTT, FCM, SNS/SQS
+
 **Tools:** GitHub Actions, Cloud Build, Terraform
+
 **Cloud and DevOps:** Google Cloud Platform (GCP), Amazon Web Services (AWS), Docker, Cloud Run, Lambda  
 
 ---
