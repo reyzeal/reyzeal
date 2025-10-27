@@ -36,10 +36,13 @@ jobs:
       #     sed -i '/<!-- QUOTE_SECTION_START -->/,/<!-- QUOTE_SECTION_END -->/c\<!-- QUOTE_SECTION_START -->\n> '"$quote"'\n<!-- QUOTE_SECTION_END -->' README.md
       - name: Update README.md
         run: |
-          quote="${{ steps.quote.outputs.quote }}"
-
+          quote=${{ steps.quote.outputs.quote }}
+          
+          # Escape double quotes
+          safe_quote=$(printf '%s\n' "$quote" | sed 's/"/\\"/g')
+          
           # Replace last blockquote line (starts with '> ')
-          awk -v new="> \"$quote\"" '
+          awk -v new="> \"$safe_quote\"" '
             /^> /{last=NR}
             {lines[NR]=$0}
             END{
@@ -48,6 +51,7 @@ jobs:
                 else{print lines[i]}
               }
             }' README.md > README.tmp && mv README.tmp README.md
+
 
       - name: Commit changes
         run: |
