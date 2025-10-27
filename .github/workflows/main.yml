@@ -1,0 +1,58 @@
+name: Update Daily Quote
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # every day at 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate quote
+        id: quote
+        run: |
+          # List of quotes
+          quotes=(
+            "\"Simplicity is the soul of efficiency.\" – Austin Freeman"
+            "\"Code is like humor. When you have to explain it, it’s bad.\" – Cory House"
+            "\"Experience is the name everyone gives to their mistakes.\" – Oscar Wilde"
+            "\"Talk is cheap. Show me the code.\" – Linus Torvalds"
+            "\"First, solve the problem. Then, write the code.\" – John Johnson"
+          )
+
+          # Pick random quote
+          RANDOM_QUOTE=${quotes[$RANDOM % ${#quotes[@]}]}
+          echo "quote=$RANDOM_QUOTE" >> $GITHUB_OUTPUT
+
+      # - name: Update README.md
+      #   run: |
+      #     quote="${{ steps.quote.outputs.quote }}"
+      #     # Replace between markers
+      #     sed -i '/<!-- QUOTE_SECTION_START -->/,/<!-- QUOTE_SECTION_END -->/c\<!-- QUOTE_SECTION_START -->\n> '"$quote"'\n<!-- QUOTE_SECTION_END -->' README.md
+      - name: Update README.md
+        run: |
+          quote="${{ steps.quote.outputs.quote }}"
+
+          # Replace last blockquote line (starts with '> ')
+          awk -v new="> \"$quote\"" '
+            /^> /{last=NR}
+            {lines[NR]=$0}
+            END{
+              for(i=1;i<=NR;i++){
+                if(i==last){print new}
+                else{print lines[i]}
+              }
+            }' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update daily quote" || echo "No changes to commit"
+          git push
