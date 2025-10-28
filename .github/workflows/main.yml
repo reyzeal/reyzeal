@@ -4,7 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Run daily at 00:00 UTC
   workflow_dispatch:
-
+  
+permissions:
+  contents: write
+  
 jobs:
   update-quote:
     runs-on: ubuntu-latest
@@ -36,8 +39,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Rizal Ardhi Rahmadani"
+          git config --global user.email "reyzeal@users.noreply.github.com"
           git add README.md
           git commit -m "chore: update daily quote" || echo "No changes to commit"
           git push
