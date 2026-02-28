@@ -43,4 +43,4 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 
 ---
 
-> "Experience is the name everyone gives to their mistakes. — Oscar Wilde"
+> "Simplicity is the soul of efficiency. — Austin Freeman"
