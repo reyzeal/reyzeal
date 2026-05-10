@@ -43,4 +43,4 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 
 ---
 
-> "First, solve the problem. Then, write the code. — John Johnson"
+> "Talk is cheap. Show me the code. — Linus Torvalds"
