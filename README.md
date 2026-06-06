@@ -43,4 +43,4 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 
 ---
 
-> "Simplicity is the soul of efficiency. — Austin Freeman"
+> "Talk is cheap. Show me the code. — Linus Torvalds"
