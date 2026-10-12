@@ -43,4 +43,4 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 
 ---
 
-> "Simplicity is the soul of efficiency. — Austin Freeman"
+> "First, solve the problem. Then, write the code. — John Johnson"
