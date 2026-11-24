@@ -43,4 +43,4 @@ Generated using my own project — [github-private-stats](https://github.com/rey
 
 ---
 
-> "Experience is the name everyone gives to their mistakes. — Oscar Wilde"
+> "Talk is cheap. Show me the code. — Linus Torvalds"
